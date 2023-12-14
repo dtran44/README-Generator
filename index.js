@@ -59,7 +59,7 @@ function generateLicenseBadgeURL(license) {
   // Define badge URLs for different licenses
   const licenseBadges = {
     MIT: 'https://img.shields.io/badge/License-MIT-blue.svg',
-    'Apache 2.0': 'https://img.shields.io/badge/License-Apache%202.0-blue.svg',
+    'Apache 2.0': 'https://img.shields.io/badge/license-APACHE 2.0-blue.svg',
     'GPL 3.0': 'https://img.shields.io/badge/License-GPLv3-blue.svg',
     'BSD 3-Clause': 'https://img.shields.io/badge/License-BSD%203--Clause-blue.svg',
     None: '', // No badge for 'None' license
