@@ -1,8 +1,8 @@
 
-# sdfafd
+# sssss
 
 ## Description
-dfafsd
+sssss
 
 ## Table of Contents
 - [Description](#description)
@@ -14,19 +14,19 @@ dfafsd
 - [Questions](#questions)
 
 ## Installation
-asfff
+sssss
 
 ## Usage
-ffff
+ssss
 
 ## License
-This project is licensed under the GPL 3.0 license.
+This project is licensed under the Apache 2.0 license.
 
 ## Contributing
-fff
+sss
 
 ## Tests
-fff
+sss
 
 ## Questions
 For questions about this project, please reach out to [dtran44](https://github.com/dtran44) or email at diana.tran44@gmail.com.

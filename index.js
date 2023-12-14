@@ -70,8 +70,7 @@ function generateLicenseBadgeURL(license) {
 
 // Function to generate the README content based on user input
 function generateREADME(answers) {
-  const licenseBadgeURL = generateLicenseBadgeURL(answers.license);
-  const licenseBadgeMarkdown = licenseBadgeURL ? `[![License Badge](${licenseBadgeURL})](#license)` : '';
+  generateLicenseBadgeURL(answers.license);
 
   return `
 # ${answers.projectTitle}
