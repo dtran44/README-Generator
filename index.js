@@ -53,12 +53,49 @@ const questions = [
   },
 ];
 
+// TODO: Create a function that returns a license badge based on which license is passed in
+// If there is no license, return an empty string
+function renderLicenseBadge(license) {
+  if(license !== 'None') {
+    return `[!GitHub licence]
+    (https://img.shields.io/badge/license-${license}-builtinModules.svg})`
+  }
+}
+
+// TODO: Create a function that returns the license link
+// If there is no license, return an empty string
+function renderLicenseLink(license) {
+  if(license !== 'None') {
+    return ''
+  }
+}
+
+// TODO: Create a function that returns the license section of README
+// If there is no license, return an empty string
+function renderLicenseSection(license) {
+  if(license !== 'None') {
+    return `##License
+    This project is licensed under ${license}`}
+}
+
+// TODO: Create a function to generate markdown for README
+function generateMarkdown(data) {
+  return `# ${data.title}
+
+`;
+}
+
 
 // Function to generate the README content based on user input
 function generateREADME(answers) {
+
+  const licenseBadge = renderLicenseBadge(answers.license);
+  const licenseLink = renderLicenseLink(answers.license);
+  const licenseSection = renderLicenseSection(answers.license);
  
   return `
 # ${answers.projectTitle}
+
 
 ## Description
 ${answers.description}
@@ -78,8 +115,11 @@ ${answers.installation}
 ## Usage
 ${answers.usage}
 
-## License
-This project is licensed under the ${answers.license} license.
+${licenseSection} 
+
+${licenseBadge} 
+
+${licenseLink}
 
 ## Contributing
 ${answers.contributing}

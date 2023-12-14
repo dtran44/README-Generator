@@ -1,8 +1,9 @@
 
 # Professional README generator
 
+
 ## Description
-To create a README generator that makes it more efficient for the user to create
+To create a README generator that allows the user to generate REAMEs more efficiently
 
 ## Table of Contents
 - [Description](#description)
@@ -14,16 +15,21 @@ To create a README generator that makes it more efficient for the user to create
 - [Questions](#questions)
 
 ## Installation
-N/A
+install inquirer
 
 ## Usage
-to install inquirer
+follow the prompts
 
-## License
-This project is licensed under the MIT license.
+##License
+    This project is licensed under MIT 
+
+[!GitHub licence]
+    (https://img.shields.io/badge/license-MIT-builtinModules.svg}) 
+
+
 
 ## Contributing
-Guidelines are on Github
+N/A
 
 ## Tests
 N/A
