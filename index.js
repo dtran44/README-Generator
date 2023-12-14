@@ -58,7 +58,7 @@ const questions = [
 function renderLicenseBadge(license) {
   if(license !== 'None') {
     return `[!GitHub licence]
-    (https://img.shields.io/badge/license-${license}-builtinModules.svg})`
+    (https://img.shields.io/badge/license-${license}-blue.svg})`
   }
 }
 
