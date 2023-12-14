@@ -1,9 +1,9 @@
 
-# Professional README generator
+# Professional README generator 
 
 
 ## Description
-To create a generator for users to create README files more efficiently
+To create a generator that allows users to create READMEs more efficiently
 
 ## Table of Contents
 - [Description](#description)
@@ -15,16 +15,16 @@ To create a generator for users to create README files more efficiently
 - [Questions](#questions)
 
 ## Installation
-install inquirer
+To install Inquirer
 
 ## Usage
-to follow the prompts
+To follow prompts
 
 ##License
     This project is licensed under Apache 2.0 
 
 [!GitHub licence]
-    (https://img.shields.io/badge/license-Apache 2.0-blue.svg}) 
+    (https://img.shields.io/badge/license-Apache 2.0-blue}) 
 
 
 
