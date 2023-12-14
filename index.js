@@ -74,7 +74,7 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if(license !== 'None') {
-    return `##License
+    return `## License
     This project is licensed under ${license}`}
 }
 
@@ -130,7 +130,9 @@ ${answers.tests}
 ## Questions
 For questions about this project, please reach out to [${answers.githubUsername}](https://github.com/${answers.githubUsername}) or email at ${answers.email}.
 `;
+
 }
+
 
 // Function to write to the README file
 function writeToFile(fileName, data) {
