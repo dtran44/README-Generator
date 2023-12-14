@@ -3,7 +3,7 @@
 
 
 ## Description
-To create a README generator that allows the user to generate REAMEs more efficiently
+To create a generator for users to create README files more efficiently
 
 ## Table of Contents
 - [Description](#description)
@@ -18,13 +18,13 @@ To create a README generator that allows the user to generate REAMEs more effici
 install inquirer
 
 ## Usage
-follow the prompts
+to follow the prompts
 
 ##License
-    This project is licensed under MIT 
+    This project is licensed under Apache 2.0 
 
 [!GitHub licence]
-    (https://img.shields.io/badge/license-MIT-builtinModules.svg}) 
+    (https://img.shields.io/badge/license-Apache 2.0-blue.svg}) 
 
 
 
