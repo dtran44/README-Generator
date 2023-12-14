@@ -1,10 +1,9 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const { start } = require('repl');
 
 const prompt = inquirer.createPromptModule();
 
-// Array of questions for user input
+// Array of questions
 const questions = [
   {
     type: 'input',
@@ -54,23 +53,10 @@ const questions = [
   },
 ];
 
-// Function to generate the license badge URL based on the selected license
-function generateLicenseBadgeURL(license) {
-  const licenseBadges = {
-    MIT: 'https://img.shields.io/badge/License-MIT-blue.svg',
-    'Apache 2.0': 'https://img.shields.io/badge/License-Apache%202.0-blue.svg',
-    'GPL 3.0': 'https://img.shields.io/badge/License-GPLv3-blue.svg',
-    'BSD 3-Clause': 'https://img.shields.io/badge/License-BSD%203--Clause-blue.svg',
-    None: '', // No badge for 'None' license
-  };
-
-  return licenseBadges[license] || '';
-}
-
 
 // Function to generate the README content based on user input
 function generateREADME(answers) {
-  generateLicenseBadgeURL(answers.license);
+ 
 
   return `
 # ${answers.projectTitle}
@@ -118,7 +104,7 @@ function writeToFile(fileName, data) {
   });
 }
 
-// Function to initialize the application
+// Function to initialise the application
 function init() {
   prompt(questions).then((answers) => {
     const readmeContent = generateREADME(answers);
@@ -126,5 +112,5 @@ function init() {
   });
 }
 
-// Initialize the application
+// Initialise the application
 init();

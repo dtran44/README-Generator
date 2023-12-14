@@ -1,8 +1,8 @@
 
-# sssss
+# ddd
 
 ## Description
-sssss
+dddd
 
 ## Table of Contents
 - [Description](#description)
@@ -14,19 +14,19 @@ sssss
 - [Questions](#questions)
 
 ## Installation
-sssss
+ddd
 
 ## Usage
-ssss
+ddd
 
 ## License
-This project is licensed under the Apache 2.0 license.
+This project is licensed under the MIT license.
 
 ## Contributing
-sss
+dddd
 
 ## Tests
-sss
+ddd
 
 ## Questions
-For questions about this project, please reach out to [dtran44](https://github.com/dtran44) or email at diana.tran44@gmail.com.
+For questions about this project, please reach out to [dddd](https://github.com/dddd) or email at ddd.
