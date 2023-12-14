@@ -1,8 +1,8 @@
 
-# ddd
+# Professional README generator
 
 ## Description
-dddd
+To create a README generator that makes it more efficient for the user to create
 
 ## Table of Contents
 - [Description](#description)
@@ -14,19 +14,19 @@ dddd
 - [Questions](#questions)
 
 ## Installation
-ddd
+N/A
 
 ## Usage
-ddd
+to install inquirer
 
 ## License
 This project is licensed under the MIT license.
 
 ## Contributing
-dddd
+Guidelines are on Github
 
 ## Tests
-ddd
+N/A
 
 ## Questions
-For questions about this project, please reach out to [dddd](https://github.com/dddd) or email at ddd.
+For questions about this project, please reach out to [dtran44](https://github.com/dtran44) or email at diana.tran44@gmail.com.
