@@ -57,7 +57,6 @@ const questions = [
 // Function to generate the README content based on user input
 function generateREADME(answers) {
  
-
   return `
 # ${answers.projectTitle}
 
